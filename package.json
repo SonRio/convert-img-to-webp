@@ -1,17 +1,31 @@
 {
-  "name": "convertimagetowebp",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@convert-img-to-webp/convertimagetowebp",
+  "version": "1.0.1",
+  "description": "Convert type of image to webp. Optimize image",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "sonnvt",
   "license": "ISC",
   "dependencies": {
     "imagemin": "^9.0.0",
     "imagemin-webp": "^8.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SonRio/convert-img-to-webp.git"
+  },
+  "keywords": [
+    "convert-image",
+    "image-webp",
+    "optimize-image"
+  ],
+  "bugs": {
+    "url": "https://github.com/SonRio/convert-img-to-webp/issues"
+  },
+  "homepage": "https://github.com/SonRio/convert-img-to-webp#readme"
 }
